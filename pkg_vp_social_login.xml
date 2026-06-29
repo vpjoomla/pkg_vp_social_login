@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>VP Social Login</name>
+	<packagename>vp_social_login</packagename>
+	<author>Volodymyr Pershyn</author>
+	<authorEmail>support@vpjoomla.com</authorEmail>
+	<authorUrl>https://vpjoomla.com</authorUrl>
+	<creationDate>2026-06</creationDate>
+	<copyright>Copyright (C) 2024 - 2026 VPJoomla. All rights reserved.</copyright>
+	<license>GNU GPL v2 or later; see LICENSE.txt</license>
+	<version>1.1.0</version>
+	<description>PKG_VP_SOCIAL_LOGIN_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+
+	<files folder="packages">
+		<file type="plugin" id="vpsociallogin" group="system">plg_system_vpsociallogin.zip</file>
+		<file type="plugin" id="vpsociallogin" group="user">plg_user_vpsociallogin.zip</file>
+		<file type="module" id="mod_vp_social_login" client="site">mod_vp_social_login.zip</file>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_vp_social_login.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.pkg_vp_social_login.sys.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.pkg_vp_social_login.sys.ini</language>
+	</languages>
+
+	<updateservers>
+		<server type="extension" priority="1" name="VP Social Login">https://vpjoomla.com/updates/vp-social-login/update.xml</server>
+	</updateservers>
+</extension>
